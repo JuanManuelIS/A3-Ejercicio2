@@ -44,7 +44,7 @@ public class NewServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet NewServlet</title>");            
             out.println("</head>");
-            URL client = new URL("http://ws.docencia.ces.siani.es/a11/WSWebHora/webresources/horaServidor");
+            URL client = new URL("http://ws.docencia.ces.siani.es/a24/WSTime/webresources/horaServidor");
             URLConnection tc = client.openConnection();
             try{
                 BufferedReader in = new BufferedReader(new InputStreamReader(tc.getInputStream()));
